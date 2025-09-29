@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oferta – Łap Chwile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="LOGOTYP_LCh.png" alt="Łap Chwile" style="height:50px;"></a>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="oferta.html">Oferta</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Oferta</h1>
+    <p><strong>Łap Chwile</strong> to firma, która rozwija się w kilku kierunkach – od usług dla rodzin i dzieci, przez sprzedaż detaliczną, po wsparcie biznesu. Dzięki temu mogę elastycznie odpowiadać na potrzeby różnych klientów.</p>
+
+    <h2>Rozrywka i edukacja</h2>
+    <ul>
+      <li>Organizacja zajęć rekreacyjnych i wydarzeń dla dzieci i dorosłych</li>
+      <li>Opieka dzienna nad dziećmi</li>
+      <li>Dodatkowe formy edukacji i warsztatów pozaszkolnych</li>
+      <li>Sprzedaż gier, zabawek i materiałów edukacyjnych</li>
+    </ul>
+
+    <h2>Sprzedaż detaliczna</h2>
+    <ul>
+      <li>Sprzęt komputerowy i akcesoria IT</li>
+      <li>Gry i zabawki</li>
+      <li>Pojazdy silnikowe (z wyłączeniem motocykli), części i akcesoria samochodowe</li>
+    </ul>
+
+    <h2>Usługi dla biznesu</h2>
+    <ul>
+      <li>Doradztwo w zakresie prowadzenia działalności gospodarczej i zarządzania</li>
+      <li>Obsługa administracyjna biura</li>
+      <li>Organizacja targów, wystaw i wydarzeń biznesowych</li>
+      <li>Wsparcie marketingowe i działania reklamowe</li>
+    </ul>
+
+    <h2>Usługi dodatkowe</h2>
+    <ul>
+      <li>Roboty budowlane wykończeniowe</li>
+      <li>Pozostałe usługi dopasowane do indywidualnych potrzeb klienta</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Łap Chwile • <a href="index.html">Start</a> • <a href="oferta.html">Oferta</a> • <a href="kontakt.html">Kontakt</a></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
