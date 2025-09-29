@@ -3,31 +3,32 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Łap Chwile – wizytówka kontaktowa</title>
-  <meta name="description" content="Łap Chwile – dane kontaktowe" />
-  <link rel="icon" href="/favicon.ico" />
-  <style>
-    body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;background:#f9fafb;color:#0f172a;display:flex;align-items:center;justify-content:center;height:100vh}
-    .card{background:white;border:1px solid #e5e7eb;border-radius:16px;padding:32px;max-width:420px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05)}
-    h1{margin:0 0 16px;font-size:28px}
-    p{margin:6px 0}
-    a{color:#0ea5e9;text-decoration:none;font-weight:500}
-    a:hover{text-decoration:underline}
-    footer{margin-top:20px;font-size:12px;color:#64748b}
-  </style>
+  <title>Łap Chwile – Strona główna</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="card">
-    <h1>Łap Chwile</h1>
-    <p><strong>E‑mail:</strong> <a href="mailto:kontakt@lapchwile.com">kontakt@lapchwile.com</a></p>
-    <p><strong>Telefon:</strong> <a href="tel:+48790790137">+48 790 790 137</a></p>
-    <p><strong>Strona:</strong> <a href="https://www.lapchwile.com">www.lapchwile.com</a></p>
-    <hr style="margin:20px 0;border:none;border-top:1px solid #e5e7eb">
-    <p><strong>ŁAP CHWILE Anna Godlewska</strong></p>
-    <p>Ul. Polnych Kwiatów 11<br>05‑126 Nieporęt</p>
-    <p><strong>NIP:</strong> 1251338814</p>
-    <footer>© <span id="year"></span> Łap Chwile</footer>
-  </div>
+  <header>
+    <a href="index.html"><img src="logo.png" alt="Łap Chwile" style="height:50px;"></a>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="oferta.html">Oferta</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Witamy w Łap Chwile</h1>
+    <p>Kontakt.</p>
+    <p><strong>E‑mail:</strong> <a href="mailto:kontakt@lapchwile.com">kontakt@lapchwile.com</a><br>
+       <strong>Telefon:</strong> <a href="tel:+48790790137">+48 790 790 137</a></p>
+    <p><strong>ŁAP CHWILE Anna Godlewska</strong><br>
+       Ul. Polnych Kwiatów 11<br>
+       05‑126 Nieporęt<br>
+       NIP: 1251338814</p>
+  </main>
+
+  <footer>© <span id="year"></span> Łap Chwile</footer>
+
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
